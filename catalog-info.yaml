@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test8
+  annotations:
+    github.com/project-slug: nordrichbynordcloud/test8
+  description: Repository for test8 created via github-template workflow.
+  tags:
+    - github
+spec:
+  type: repository
+  owner: nordrichbynordcloud
+  lifecycle: experimental
